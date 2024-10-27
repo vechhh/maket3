@@ -1,3 +1,8 @@
+@import url("");
+*{
+    margin:0;
+    padding: 0;
+}
 body{
     width: auto;
     height: 11276px;
@@ -62,7 +67,7 @@ header{
     justify-content: space-around;
     gap: 50px;
     color: white;
-    margin-top: 500px;
+    margin-top: 550px;
 }
 .container1-{
 width: auto;
@@ -177,8 +182,31 @@ background-color: #F0FAF7;
     border-color: white;
 }
 .volna{
-padding-left: 100px;
-padding-top: 170px;
+    width: 100%;
+    height: 150px;
+    margin-top: 155px;
+    background-image: url("art/Frame2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.volna1{
+    width: 100%;
+    height: 150px;
+    margin-top: 115px;
+    background-image: url("art/Frame.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: -10px;
+}
+.volna2{
+    width: 100%;
+    height: 150px;
+    margin-top: -115px;
+    background-image: url("art/Frame3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: -10px;
 }
 .container5{
     color:  #C47B59;
