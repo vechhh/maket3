@@ -1,4 +1,4 @@
-@import url("");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 *{
     margin:0;
     padding: 0;
@@ -35,7 +35,6 @@ header{
     background-image: url("art/firstscreen.jfif");
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 .text{
     display: flex;
@@ -67,7 +66,55 @@ header{
     justify-content: space-around;
     gap: 50px;
     color: white;
-    margin-top: 550px;
+    margin-top: 400px;
+}
+.button1 {
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: white;
+    border-radius: 7px;
+    width: 222px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button1 >p {
+    font-family: Roboto;
+font-size: 18.67px;
+font-weight: 400;
+line-height: 32px;
+text-align: center;
+
+}
+.polocka > p {
+    font-family: Roboto;
+font-size: 21.33px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+}
+.text > h1{
+    font-family: Roboto;
+font-size: 73.33px;
+font-weight: 700;
+line-height: 79.93px;
+text-align: left;
+}
+.text > p{
+    font-family: Roboto;
+font-size: 26.67px;
+font-weight: 400;
+line-height: 40px;
+text-align: left;
+}
+.button > p {
+    font-family: Roboto;
+    font-size: 18.67px;
+    font-weight: 700;
+    line-height: 19.79px;
+    text-align: center;
 }
 .container1-{
 width: auto;
@@ -86,6 +133,22 @@ background-color: #F0FAF7;
 .text2{
     padding-top: 20px;
     gap: 50px;
+    text-align: center;
+}
+.text2 > h1{
+    font-family: Roboto;
+    font-size: 53.33px;
+    font-weight: 700;
+    line-height: 60.8px;
+    text-align: center;
+}
+.text2 > p {
+    font-family: Roboto;
+font-size: 26.67px;
+font-weight: 400;
+line-height: 41.6px;
+text-align: center;
+
 }
 .container3{
     display: flex;
@@ -93,6 +156,20 @@ background-color: #F0FAF7;
     justify-content: center;
     flex-direction: column;
   gap: 50px;
+} 
+.text3 > h1 {
+    font-family: Roboto;
+font-size: 53.33px;
+font-weight: 700;
+line-height: 60.8px;
+text-align: center;
+}
+.text3 > p {
+    font-family: Roboto;
+font-size: 21.33px;
+font-weight: 400;
+line-height: 24.53px;
+text-align: center;
 }
 .conteriki{
     display: flex;
@@ -109,6 +186,21 @@ background-color: #F0FAF7;
     flex-direction: column;
     gap: 30px;
 }
+.color3_1 > p {
+    font-family: Roboto;
+font-size: 18.67px;
+font-weight: 400;
+line-height: 21.47px;
+text-align: left;
+}
+.button2 > p {
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.33px;
+text-align: center;
+
+}
 .color{  color: #F6F9E5;}
 .con3_2{
     width: 386px;
@@ -120,6 +212,14 @@ background-color: #F0FAF7;
     flex-direction: column;
     gap: 30px;
 }
+.con3_2 > p{
+    font-family: Roboto;
+    font-size: 18.67px;
+    font-weight: 400;
+    line-height: 21.47px;
+    text-align: left;
+    
+}
 .color2{ color:#C47B59;}
 .con3_3{
     width: 386px;
@@ -130,6 +230,14 @@ background-color: #F0FAF7;
     justify-content: center;
     flex-direction: column;
     gap: 30px;
+}
+.con3_3 > p {
+    font-family: Roboto;
+font-size: 18.67px;
+font-weight: 400;
+line-height: 21.47px;
+text-align: left;
+
 }
 .color3{color:  #64BAA1;}
 .button2{
@@ -148,6 +256,7 @@ background-color: #F0FAF7;
     width: auto;
     height: 1401px;
     background-color: #005466;
+    gap: 30px;
 }
 .title1{
     color: white;
@@ -155,13 +264,38 @@ background-color: #F0FAF7;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 30px;
 }
-.text4{ gap: 20px;}
+.text4{ gap: 40px;}
+.text4 > h1 {
+    font-family: Roboto;
+font-size: 73.33px;
+font-weight: 400;
+line-height: 83.6px;
+text-align: left;
+}
+.text4 > p {
+    font-family: Roboto;
+font-size: 25.33px;
+font-weight: 400;
+line-height: 40px;
+text-align: left;
+
+}
+
 .redblue{
     display: flex;
     flex-direction: row;
     gap: 30px;
 }
+.redblue > p {
+    font-family: Roboto;
+font-size: 21.33px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+}
+
 .colori{
     width: 26px;
     height: 26px;
@@ -180,6 +314,13 @@ background-color: #F0FAF7;
     justify-content: center;
     border-style: solid;
     border-color: white;
+}
+.button3 > p {
+    font-family: Roboto;
+font-size: 18.67px;
+font-weight: 400;
+line-height: 19.79px;
+text-align: center;
 }
 .volna{
     width: 100%;
@@ -218,10 +359,33 @@ background-color: #F0FAF7;
     justify-content: center;
     flex-direction: row;
 }
+.text5 > h1 {
+    font-family: Roboto;
+font-size: 73.33px;
+font-weight: 400;
+line-height: 83.6px;
+text-align: left;
+}
+.text5 > p {
+    font-family: Roboto;
+font-size: 26.67px;
+font-weight: 400;
+line-height: 40px;
+text-align: left;
+
+}
 .purpleorange{
     display: flex;
     flex-direction: row;
     gap: 30px;
+}
+.purpleorange > p {
+    font-family: Roboto;
+font-size: 21.33px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+
 }
 .colori2{
     width: 26px;
@@ -244,6 +408,14 @@ background-color: #F0FAF7;
     border-style: solid;
     border-color: #C47B59;
 }
+.button4 > p {
+    font-family: Roboto;
+font-size: 18.67px;
+font-weight: 400;
+line-height: 19.79px;
+text-align: center;
+
+}
 .container6{
     width: auto;
     height: 1125px;
@@ -251,8 +423,22 @@ background-color: #F0FAF7;
     display: flex;
     align-items: center;
     justify-content: center;
-   
 }
+.text6 > h1 {
+    font-family: Roboto;
+font-size: 53.33px;
+font-weight: 400;
+line-height: 60.27px;
+text-align: left;
+}
+.text6 > p {
+    font-family: Roboto;
+font-size: 26.67px;
+font-weight: 400;
+line-height: 40px;
+text-align: left;
+}
+
 .title2{
     display: flex;
     flex-direction: row;
@@ -267,6 +453,13 @@ background-color: #F0FAF7;
     justify-content: center;
     border-style: solid;
 }
+.button5 > p {
+    font-family: Roboto;
+font-size: 18.67px;
+font-weight: 400;
+line-height: 19.79px;
+text-align: center;
+}
 .container7{
     width: auto;
     height: 1132px;
@@ -277,6 +470,20 @@ background-color: #F0FAF7;
     flex-direction: row;
     gap: 50px;
 }
+.text7 > h1 {
+    font-family: Roboto;
+font-size: 53.33px;
+font-weight: 400;
+line-height: 60.27px;
+text-align: left;
+}
+.text7 > p {
+    font-family: Roboto;
+font-size: 26.67px;
+font-weight: 400;
+line-height: 40px;
+text-align: left;
+}
 .cont1{
     width: auto;
     height: 893px;
@@ -285,6 +492,28 @@ background-color: #F0FAF7;
     align-items: center;
     flex-direction: row;
     gap: 150px;
+}
+.text8 > h1 {
+    font-family: Roboto;
+font-size: 53.33px;
+font-weight: 400;
+line-height: 60.27px;
+text-align: left;
+}
+.text8 > p {
+    font-family: Roboto;
+font-size: 26.67px;
+font-weight: 400;
+line-height: 40px;
+text-align: left;
+}
+.text8 > p > p {
+    font-family: Roboto;
+font-size: 21.33px;
+font-weight: 400;
+line-height: 22.61px;
+text-align: left;
+
 }
 .button61{
     width: 161px;
@@ -304,6 +533,20 @@ background-color: #F0FAF7;
     gap: 200px;
     padding-bottom: 20%;
 }
+.text9 > h1 {
+    font-family: Roboto;
+font-size: 53.33px;
+font-weight: 400;
+line-height: 60.27px;
+text-align: left;
+}
+.text9 > p {
+    font-family: Roboto;
+    font-size: 26.67px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+}
 .color4{color: #0A644A;}
 .button6{
     width: 161px;
@@ -318,10 +561,25 @@ background-color: #F0FAF7;
     align-items: center;
     justify-content: center;
 }
+.container8 > h1 {
+    font-family: Roboto;
+font-size: 53.33px;
+font-weight: 400;
+line-height: 60.27px;
+text-align: center;
+}
 .font{
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+.font > p {
+    font-family: Roboto;
+font-size: 25.33px;
+font-weight: 400;
+line-height: 40px;
+text-align: center;
+
 }
 .end{
     color: white;
@@ -336,9 +594,14 @@ background-color: #F0FAF7;
     gap: 30px;
     padding-left: 150px;
     padding-bottom: 5%;
-
 }
-
+.end > h1 {
+    font-family: Roboto;
+font-size: 73.33px;
+font-weight: 400;
+line-height: 79.93px;
+text-align: left;
+}
 .button8{
     border-color: black;
     background-color: black;
@@ -348,4 +611,12 @@ background-color: #F0FAF7;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.button8 > p{
+    font-family: Roboto;
+font-size: 18.67px;
+font-weight: 400;
+line-height: 19.79px;
+text-align: center;
+
 }
