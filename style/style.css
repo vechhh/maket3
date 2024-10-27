@@ -1,6 +1,7 @@
 body{
     width: auto;
     height: 11276px;
+    background-color: white;
 }
 header{
     display: flex;
@@ -79,4 +80,18 @@ background-color: #F0FAF7;
 .text2{
     padding-top: 20px;
     gap: 50px;
+}
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.conteriki{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.con3_1{
+    
 }
