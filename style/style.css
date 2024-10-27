@@ -238,3 +238,13 @@ padding-top: 170px;
     justify-content: center;
     border-style: solid;
 }
+.container7{
+    width: auto;
+    height: 1132px;
+    background-color: #F1FAF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+gap: 50px;
+}
