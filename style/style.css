@@ -12,7 +12,7 @@ header{
     margin-right: 30px;
     width: auto;
     height: 112px;
-    background-color:rgba(255, 255, 255, 0.42);
+    background-color:#87ADB6;
 }
 .head_left{
     display: flex;
@@ -214,4 +214,27 @@ padding-top: 170px;
     justify-content: center;
     border-style: solid;
     border-color: #C47B59;
+}
+.container6{
+    width: auto;
+    height: 1125px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.title2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.button5{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
 }
