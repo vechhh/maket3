@@ -1,0 +1,25 @@
+body{
+    width: auto;
+    height: 11276px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: auto;
+    height: 112px;
+    background-color: #FFFFFF6C;
+}
+.head_left{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.head_right{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
