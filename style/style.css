@@ -176,6 +176,42 @@ background-color: #F0FAF7;
     border-color: white;
 }
 .volna{
-padding-left: 50px;
+padding-left: 100px;
 padding-top: 170px;
+}
+.container5{
+    color:  #C47B59;
+    background-color:  #F7D8BF;
+    width: auto;
+    height: 1401px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.purpleorange{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.colori2{
+    width: 26px;
+    height: 26px;
+    border-style: solid;
+    border-color: white;
+    background-color:#C47B59;
+}
+.colori3{
+    width: 26px;
+    height: 26px;
+    border-style: solid;
+    border-color: white;
+    background-color:#EF9632;
+}
+.button4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: #C47B59;
 }
