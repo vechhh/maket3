@@ -10,7 +10,7 @@ header{
     align-items: center;
     margin-left: 30px;
     margin-right: 30px;
-    width: auto;
+    width: auto ;
     height: 112px;
     background-color:#87ADB6;
 }
@@ -34,8 +34,6 @@ header{
 }
 .text{
     display: flex;
-    align-items: center;
-    align-content: space-around;
     flex-direction: column;
     color: white;
 }
@@ -44,13 +42,15 @@ header{
     align-items: center;
     justify-content: center;
     width: 346px;
-    height: 70px;
+    height: 69px;
     background-color: black;
     border-style: solid;
     border-color: black;
 }
 .title{
     display: flex;
+    padding-left: 250px;
+    padding-top: 200px;
 }
 .polocka{
     height: 96px;
@@ -62,6 +62,7 @@ header{
     justify-content: space-around;
     gap: 50px;
     color: white;
+    margin-top: 500px;
 }
 .container1-{
 width: auto;
@@ -255,7 +256,7 @@ padding-top: 170px;
     display: flex;
     align-items: center;
     flex-direction: row;
-    gap: 50px;
+    gap: 150px;
 }
 .button61{
     width: 161px;
